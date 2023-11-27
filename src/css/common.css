@@ -17,6 +17,10 @@ img {
   max-width: 100%;
 }
 
+
+/* ================
+     task 2
+  ================= */
 input#datetime-picker {
   width: 400px;
   height: 55px;
@@ -58,4 +62,44 @@ input#datetime-picker {
 .value {
   color: red;
   font-size: 30px;
+}
+
+
+/* ================
+     task 3
+  ================= */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 50px;
+}
+
+input[type='number'] {
+  margin-left: 10px;
+  padding: 10px;
+  width: 150px;
+  height: 50px;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  color: #9652f0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  font-size: 25px;
+}
+
+input[type='number']::placeholder {
+  color: #330355;
+}
+
+button[type="submit"] {
+    width: 150px;
+    height: 50px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    color: white;
+    background-color: #9652f0;
 }
